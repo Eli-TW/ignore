@@ -1,5 +1,5 @@
 {
-    "name": "ignore",
+    "name": "drupal/ignore",
     "type": "drupal-module",
     "description": "Ignore this its for an annoying thing",
     "keywords": [
