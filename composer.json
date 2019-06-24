@@ -1,0 +1,13 @@
+{
+    "name": "ignore",
+    "type": "drupal-module",
+    "description": "Ignore this its for an annoying thing",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ignore",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ignore",
+        "source": "http://cgit.drupalcode.org/ignore",
+    },
+}

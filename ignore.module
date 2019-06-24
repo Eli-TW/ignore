@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ignore.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ignore_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ignore module.
+    case 'help.page.ignore':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Ignore this its for an annoying thing') . '</p>';
+      return $output;
+
+    default:
+  }
+}
